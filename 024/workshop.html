@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <h1>Workshop 3.1</h1>
+        <script src="script.js"></script>
+        <script>
+            let student ="เยี๊ยะ";
+            let mark1 =24;
+            let mark2 =41;
+            document.write("<h2>",student,"ได้คะเเนนกลางภาค : ",mark1,
+                "</h2>");
+            document.write("<h2>",student,"ได้คะเเนนปลายภาค : ",mark2,
+                "</h2>");
+            let avg = (mark1 + mark2 )/2;
+            document.write("<h2>",student,
+                "ได้คะเเนนเฉลี่ย : ",avg,"</h2>")
+            let grade=null;
+            if(avg>=80){
+                grade="A"
+            }
+            else if(avg>=70){
+                grade="B"
+            }
+            else if(avg>=60){
+                grade="C"
+            }
+            else if(avg>=50){
+                grade="D"
+            }
+            else{
+                grade="E"
+            }
+            document.write("<h1>Grade : ",grade,"</h1>");
+        </script>
+    </body>
+</html>
